@@ -1,0 +1,23 @@
+{
+  "name": "netlifyfunction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "netlify-lambda serve apis",
+    "build": "netlify-lambda build apis"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RootRiv/netlifyFunction.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RootRiv/netlifyFunction/issues"
+  },
+  "homepage": "https://github.com/RootRiv/netlifyFunction#readme",
+  "dependencies": {
+    "netlify-lambda": "^1.6.3"
+  }
+}
